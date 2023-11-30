@@ -1,0 +1,41 @@
+section > {}
+
+h1{
+    color: fuchsia;
+}
+
+h2 ~ p{
+    background-color: crimson;
+}
+
+h2 + p{
+    background-color: fuchsia;
+}
+
+p{
+    background-color: aqua;
+}
+
+ul li{
+    margin-top: 30px;
+}
+
+ul>:nth-child(even){
+    border: 10px dashed sandybrown;
+}
+ul>:nth-child(odd){
+    border: 10px ridge navy;
+}
+
+ul>:first-child, ul>:last-child{
+    border: 10px double violet;
+}
+
+ul>:nth-child(3n+5){
+    border: 10px dotted hotpink;
+}
+
+ul li{
+    border: 10px double green;
+}
+
